@@ -1,8 +1,8 @@
 import ExpenseItem from "./ExpenseItem";
 import './DisplyExpenseItem.css';
-import Card from "./Card";
+import Card from "../UI/Card";
 
-function DisplayExpensesItem(expenses) {
+const DisplayExpensesItem = (expenses) => {
     let data = expenses.expenses;
     return (
         <Card className="expenses">
